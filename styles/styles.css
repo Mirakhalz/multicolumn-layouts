@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: bisque;
+}
+
+#column{
+    display: grid;
+    grid-auto-flow: column;
+    background-color: #ffcc00;
+    grid-template-columns: repeat(auto-fit, minmax(190px, max-content));
+    justify-items: center;
+    width: max-content;
+    border: 2px black solid;
+}
+
+div > img{
+    border: 2px black solid;
+    align-self: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 192px;
+    height: 384px;
+
+} 
+
+.one{
+    margin-left: 32px;
+}
+.one, .two{
+    margin-right: 12px;
+}
+
+.three, .four {
+    margin-right: 6px;
+}
+    
+    
